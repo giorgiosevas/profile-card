@@ -18,7 +18,7 @@ export const SkillList = () => {
           key={skill.name}
           style={{ backgroundColor: skill.backgroundColor }}
         >
-          {skill.emoji} {skill.name}
+          {skill.name} {skill.emoji}
         </h3>
       ))}
     </div>
