@@ -2,12 +2,12 @@ import React from "react";
 
 export const SkillList = () => {
   const skills = [
-    { name: "HTML & CSS", emoji: "🌐", backgroundColor: "blue" },
-    { name: "Vanilla JavaScript", emoji: "🔥", backgroundColor: "yellow" },
-    { name: "React", emoji: "⚛️", backgroundColor: "lightblue" },
-    { name: "Web Design", emoji: "🎨", backgroundColor: "green" },
-    { name: "Git", emoji: "🔧", backgroundColor: "purple" },
-    { name: "Python", emoji: "🐍", backgroundColor: "red" },
+    { name: "HTML & CSS",level: "🦾", backgroundColor: "blue" },
+    { name: "Vanilla JavaScript", level: "🦾", backgroundColor: "yellow" },
+    { name: "React", level: "👍", backgroundColor: "lightblue" },
+    { name: "Web Design", level: "👍", backgroundColor: "green" },
+    { name: "Git", level: "👶", backgroundColor: "purple" },
+    { name: "Python", level: "👶", backgroundColor: "red" },
   ];
 
   return (
@@ -18,7 +18,7 @@ export const SkillList = () => {
           key={skill.name}
           style={{ backgroundColor: skill.backgroundColor }}
         >
-          {skill.name} {skill.emoji}
+          {skill.name} {skill.level}
         </h3>
       ))}
     </div>
